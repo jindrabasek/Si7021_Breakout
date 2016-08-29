@@ -60,13 +60,13 @@
 
 
 /****************Si7021 & HTU21D Class**************************************/
-class Weather
+class Si7010Weather
 {
 public:
 	// Constructor
-	Weather();
+	Si7010Weather();
 
-	void  begin();
+	uint8_t begin();
 
 	// Si7021 & HTU21D Public Functions
 	float getRH();
